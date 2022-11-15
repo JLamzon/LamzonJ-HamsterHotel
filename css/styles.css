@@ -44,14 +44,25 @@ height: 500px;
 .hover {
     position: absolute;
     top: 0;
-    left: 30%;
-    right: 0;
+    left: 10%;
+    right: 10%;
     bottom: 0;
-    background-color: rgba(0, 188, 212, 0);
+    background-color: rgba(54, 25, 25, .00004);
     transition: background-color 0.5s;
 }
 
-.hover:hover {
-    background-color: rgba(0, 188, 212, 0.8);
-    /* You can tweak with other background properties too (ie: background-image)...*/
+.pool-text
+{
+    display: flex;
+    justify-content: center;
 }
+
+.pool-text-bg-color
+{
+    background-color: blue;
+    opacity: 50%;
+}
+/* .hover:hover {
+    background-color: rgba(0, 188, 212, 0.8);
+    /* You can tweak with other background properties too (ie: background-image)...
+} */
