@@ -8,6 +8,7 @@
 .navBar-text {
     color: white !important;
     margin-top: 84px;
+    gap: 0;
 }
 
 /* Picture of pool*/
@@ -34,6 +35,7 @@
 .wrapper {
     display: inline-block;
     position: relative;
+    display: flex;
 }
 
 .hover {
@@ -42,6 +44,9 @@
     left: 10%;
     right: 10%;
     bottom: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
     /* background-color: rgba(54, 25, 25, .00004); */
     /* transition: background-color 0.5s; */
 }
@@ -81,7 +86,6 @@
     display: grid;
     gap: 0;
     grid-template-columns: 25% 25% 25%;
-
 }
 
 .testimonial-flex-items {
@@ -89,28 +93,13 @@
     background-color: whitesmoke;
 }
 
-.text-border {
-    border: ;
-}
-
-.testimonials-2 {}
-
-.testimonials-2 {}
-
-.testimonials-3 {}
-
-.testimonials-4 {}
-
-.testimonials-5 {}
-
-.testimonials-6 {}
-
 
 /* Cards CSS */
 
-.cards-layout {
+/* .cards-layout {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-}
+    display: flex;
+} */
 
 .card-title {
     font-size: 25px;
@@ -118,6 +107,7 @@
     letter-spacing: 0px;
     color: #1A1B26;
     opacity: 1;
+    margin: 0.5rem;
 }
 
 .room-size-text {
@@ -128,6 +118,70 @@
     letter-spacing: 0px;
     color: #1A1B26;
     opacity: 1;
+    margin: 0.5rem;
 }
 
-.card-text {}
+.card-text 
+{
+    font-size: 16px;
+    margin: 0.5rem;
+}
+
+.even-columns {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.card-align {
+    margin: 0.5rem;
+}
+
+.card-1 {
+    top: 1339px;
+    left: 383px;
+    width: 369px;
+    height: 522px;
+    background-color: #FFFFFF;
+}
+
+.card-2 {
+    top: 1339px;
+    left: 766px;
+    width: 369px;
+    height: 522px;
+    background-color: #FFFFFF;
+}
+
+.card-3 {
+    top: 1339px;
+    left: 1149px;
+    width: 369px;
+    height: 522px;
+    background-color: #FFFFFF;
+}
+
+.card-button
+{
+    align-content: flex-end;
+    margin: 0.5rem;
+}
+/* .card-header
+{
+    display: flex;
+    justify-content: center;
+} */
+
+.bg-color
+{
+    background-color: grey;
+}
+
+/* grid boxes*/
+
+.grid-layout
+{
+    display: flex;
+    justify-content: center;
+}
