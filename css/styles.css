@@ -1,0 +1,57 @@
+.navbar-background
+{
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navBar-text
+{
+    color: white!important;
+    margin-top: 84px;
+}
+
+/* Picture of pool*/
+.pool-image
+{
+top: 119%;
+left: 0px;
+width: 1920px;
+height: 500px;
+}
+
+.pool-overlay
+{
+    vertical-align: bottom;
+    height: 500px;
+    width: 500px;
+}
+
+.image-quote
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 188, 212, 0);
+    transition: background-color 0.5s;
+}
+
+.hover:hover {
+    background-color: rgba(0, 188, 212, 0.8);
+    /* You can tweak with other background properties too (ie: background-image)...*/
+}
