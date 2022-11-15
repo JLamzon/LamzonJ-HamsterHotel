@@ -1,35 +1,30 @@
-.navbar-background
-{
+.navbar-background {
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 1;
     display: flex;
     justify-content: center;
 }
 
-.navBar-text
-{
-    color: white!important;
+.navBar-text {
+    color: white !important;
     margin-top: 84px;
 }
 
 /* Picture of pool*/
-.pool-image
-{
-top: 119%;
-left: 0px;
-width: 1920px;
-height: 500px;
+.pool-image {
+    top: 119%;
+    left: 0px;
+    width: 1920px;
+    height: 500px;
 }
 
-.pool-overlay
-{
+.pool-overlay {
     vertical-align: bottom;
     height: 500px;
     width: 500px;
 }
 
-.image-quote
-{
+.image-quote {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +46,7 @@ height: 500px;
     /* transition: background-color 0.5s; */
 }
 
-.pool-text
-{
+.pool-text {
     display: flex;
     justify-content: center;
     color: white;
@@ -60,76 +54,80 @@ height: 500px;
     margin-bottom: 30px;
 }
 
-.pool-text-1
-{
+.pool-text-1 {
     font-size: 2vw;
 }
 
-.pool-text-2
-{
+.pool-text-2 {
     font-size: 1vw;
 }
 
-.pool-text-bg-color
-{
+.pool-text-bg-color {
     /* background-color: blue; */
-    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
     background: rgba(0, 0, 43, 0.852);
     width: 700px;
     background-size: 100px 100px;
 }
+
 /* .hover:hover {
     background-color: rgba(0, 188, 212, 0.8);
     /* You can tweak with other background properties too (ie: background-image)...
 } */
 
 /* testimonial grid */
-.testimonial-grid
-{
+.testimonial-grid {
     display: grid;
     gap: 0;
     grid-template-columns: 25% 25% 25%;
 
 }
 
-.testimonial-flex-items
-{
-   border: 1px solid #333;
-   background-color: whitesmoke;
+.testimonial-flex-items {
+    border: 1px solid #333;
+    background-color: whitesmoke;
 }
 
-.text-border
-{
+.text-border {
     border: ;
 }
 
-.testimonials-2
-{
+.testimonials-2 {}
 
+.testimonials-2 {}
+
+.testimonials-3 {}
+
+.testimonials-4 {}
+
+.testimonials-5 {}
+
+.testimonials-6 {}
+
+
+/* Cards CSS */
+
+.cards-layout {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
-.testimonials-2
-{
-
+.card-title {
+    font-size: 25px;
+    font: normal normal normal 25px/32px Dosis;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
 }
 
-.testimonials-3
-{
-
+.room-size-text {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+    /* font: normal normal normal 16px/20px Source Sans Pro; */
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
 }
 
-.testimonials-4
-{
-
-}
-
-.testimonials-5
-{
-
-}
-
-.testimonials-6
-{
-
-}
-
+.card-text {}
