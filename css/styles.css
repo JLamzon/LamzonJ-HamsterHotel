@@ -82,3 +82,54 @@ height: 500px;
     background-color: rgba(0, 188, 212, 0.8);
     /* You can tweak with other background properties too (ie: background-image)...
 } */
+
+/* testimonial grid */
+.testimonial-grid
+{
+    display: grid;
+    gap: 0;
+    grid-template-columns: 25% 25% 25%;
+
+}
+
+.testimonial-flex-items
+{
+   border: 1px solid #333;
+   background-color: whitesmoke;
+}
+
+.text-border
+{
+    border: ;
+}
+
+.testimonials-2
+{
+
+}
+
+.testimonials-2
+{
+
+}
+
+.testimonials-3
+{
+
+}
+
+.testimonials-4
+{
+
+}
+
+.testimonials-5
+{
+
+}
+
+.testimonials-6
+{
+
+}
+
