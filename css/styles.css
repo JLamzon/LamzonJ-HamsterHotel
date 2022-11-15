@@ -55,11 +55,28 @@ height: 500px;
 {
     display: flex;
     justify-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pool-text-1
+{
+    font-size: 2vw;
+}
+
+.pool-text-2
+{
+    font-size: 1vw;
 }
 
 .pool-text-bg-color
 {
-    background-color: blue;
+    /* background-color: blue; */
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 43, 0.852);
+    width: 700px;
+    background-size: 100px 100px;
 }
 /* .hover:hover {
     background-color: rgba(0, 188, 212, 0.8);
