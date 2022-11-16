@@ -167,21 +167,24 @@
     align-content: flex-end;
     margin: 0.5rem;
 }
-/* .card-header
-{
-    display: flex;
-    justify-content: center;
-} */
 
 .bg-color
 {
     background-color: grey;
 }
 
-/* grid boxes*/
+/* box layout */
 
-.grid-layout
+/* .grid-layout
 {
     display: flex;
     justify-content: center;
+} */
+
+.col-layout
+{
+    
+    width: 561px;
+    height: 234px;
+    
 }
