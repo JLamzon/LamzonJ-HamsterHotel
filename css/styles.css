@@ -1,3 +1,6 @@
+body { padding: 0; margin: 0; }
+.bg-black { color: black}
+
 .navbar-background {
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -135,7 +138,10 @@
 }
 
 .card-align {
-    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
 }
 
 .card-1 {
@@ -164,7 +170,6 @@
 
 .card-button
 {
-    align-content: flex-end;
     margin: 0.5rem;
 }
 
@@ -183,8 +188,51 @@
 
 .col-layout
 {
-    
-    width: 561px;
-    height: 234px;
-    
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.container-packages
+{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.package-margin
+{
+    margin-top: 100px;
+    display: flex;
+}
+
+.package-text-title
+{
+    font-size: 25px;
+    font-family: Dosis;
+}
+
+.package-text-price
+{
+    font-size: 16px;
+    color: #1F51A8;
+    font-family: Source Sans Pro;
+}
+
+.package-text-body
+{
+    font-size: 16px;
+    font-family: Source Sans Pro;
+}
+
+.col-text-margin
+{
+    margin-left: 1rem;
+ 
+}
+
+.col-text-body
+{
+    margin-top: 1rem;
 }
