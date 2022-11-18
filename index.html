@@ -115,7 +115,7 @@
 <!-- Rooms -->
   <section class='container-fluid d-flex flex-wrap p-2 justify-content-center cards-background' style="min-height: 700px;">
     <article class='card card-1 col-12 col-md-6 col-lg-3'"  style="min-height: 550px">
-      <img src="/assets/room1.jpg" class="card-img-top" alt="..." />
+      <img src="/assets/room1.jpg" class="card-img-top" alt="room 1" />
       <h5 class="card-title">Queen Room</h5>
                     <p class="room-size-text">850 SQ FT room with city view</p>
                     <p class="card-text">
@@ -130,7 +130,7 @@
                     </div>                  
     </article>
     <article class='card card-2 col-12 col-md-6 col-lg-3'>
-      <img src="./assets/room2.jpg" class="card-img-top" alt="..." />
+      <img src="./assets/room2.jpg" class="card-img-top" alt="room 2" />
       <h5 class="card-title">King Room</h5>
       <p class="room-size-text">950 SQ FT room with beach view</p>
       <p class="card-text">
@@ -146,7 +146,7 @@
       
     </article>
     <article class='card card-3 col-12 col-md-6 col-lg-3'>
-      <img src="/assets/room3.jpg" class="card-img-top" alt="..." />
+      <img src="/assets/room3.jpg" class="card-img-top" alt="room 3" />
       <h5 class="card-title">Beach Side Suite</h5>
                   <p class="room-size-text">1500 SQ FT Suite with beach view</p>
                   <p class="card-text">
@@ -161,66 +161,7 @@
                   
     </article>
   </section>
-<!-- 
-   <container>
-    <div class="wrapper" id="rooms">
-      <img class="card-bg" src="./assets/bg2.jpg" alt="cards background" />
-      <div class="hover">
-        <div class="row">
-          <div class="col-12">
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row card-align">
-            <div class="col-3 row-cols-md-2">
-              <div class="card-1" style="min-width: 300px; min-height: 550px">
-                <img src="/assets/room1.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Queen Room</h5>
-                  <p class="room-size-text">850 SQ FT room with city view</p>
-                  <p class="card-text">
-                    • One queen size bed <br />• Seed Bar, fireplace and large
-                    balcony <br />• Small kitchen with a refrigerator and stove
-                  </p>
-                  <a href="#" class="btn btn-primary card-button">Reserve</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3 row-cols-md-2">
-              <div class="card-2" style="min-width: 300px; height: 550px">
-                <img src="./assets/room2.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">King Room</h5>
-                  <p class="room-size-text">950 SQ FT room with beach view</p>
-                  <p class="card-text">
-                    • One king size bed <br />• Seed Bar, fireplace and large
-                    balcony <br />• Small kitchen with a refrigerator and stove
-                  </p>
-                  <a href="#" class="btn btn-primary card-button">Reserve</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="card-3" style="min-width: 300px; height: 550px">
-                <img src="/assets/room3.jpg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Beach Side Suite</h5>
-                  <p class="room-size-text">1500 SQ FT Suite with beach view</p>
-                  <p class="card-text">
-                    • One California king size bed <br />• Second room with
-                    fireplace, hot tub, and balcony <br />• Seed Bar and coffee
-                    station <br />• Full kitchen with a refrigerator, stove, and
-                    island
-                  </p>
-                  <a href="#" class="btn btn-primary card-button">Reserve</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </container> -->
+
 
 
 <!-- Packages -->
@@ -333,8 +274,8 @@
           <div class="">
             <h2 class="col-12 reserve-flex reserve-title">Reserve a Room</h2>
           </div>
-          <div class="row reserve-flex">
-            <div class="col-2">
+          <div class="row reserve-flex container-fluid d-flex flex-wrap p-2 ">
+            <div class="col-2 col-sm-6 col-md-2">
               <label for="Check-in">Check-in</label>
               <input
                 type="text"
@@ -346,7 +287,7 @@
                 size="15"
               />
             </div>
-            <div class="col-2">
+            <div class="col-2 col-sm-6 col-md-2">
               <label for="Check-in">Check-out</label>
               <input
                 type="text"
@@ -358,8 +299,8 @@
                 size="15"
               />
             </div>
-            <div class="col-2">
-              <label for="Check-in">Number of Guests</label>
+            <div class="col-2 col-sm-6 col-md-2">
+              <label for="Check-in"># of Guests</label>
               <input
                 type="text"
                 id="name"
@@ -370,7 +311,7 @@
                 size="15"
               />
             </div>
-            <div class="col-2">
+            <div class="col-2 col-sm-6 col-md-2">
               <label for="Check-in ">Room Type</label>
               <input
                 type="text"
@@ -402,7 +343,7 @@
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
           <img
-            class="img-fluid mouse-image-size"
+            class="img mouse-image-size"
             src="./assets/hamsterreserve.jpg"
             alt=""
           />
@@ -413,11 +354,14 @@
 
 
 <!-- Footer -->
-    <footer id="contact">
+<div class="container container-fluid d-flex flex-wrap justify-content-center">
+      <footer id="contact">
       <img src="./assets/Logo.png" alt="Logo" width="143" height="100" />
       <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
       <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
     </footer>
+</div>
+
 
 
     <script
