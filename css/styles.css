@@ -1,30 +1,59 @@
-body { 
-    padding: 0; 
-    margin: 0; 
-    width: 1920px;
+body {padding: 0; margin: 0; max-width: 1920px;}
+
+/*
+fonts.
+font-family: 'Dosis', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+/* Navbar */
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-size: 16px;
 }
 
-/* .container
-{
-    min-width: 1920px;
-} */
-/* .flex-centered
-{
+.navbar-text-align {
     display: flex;
     justify-content: center;
-    align-content: center;
-} */
+}
+
+.nav-text-drop
+{
+    gap: 2rem;
+    align-items: flex-end;
+}
+
+.nav-text
+{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.box:hover {
+    border: 2px solid rgba(0,160,80,0);
+    color: #FFF;
+  }
+
+.navbar-background {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    max-height: 120px;
+    /* UI Properties */
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+
+/*Pool Header*/
 
 .container-text {
     position: relative;
     display: flex;
-    /* display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center; */
-    /* color: white; */
-  }
+}
 
 .pool-txt-hover {
     position: absolute;
@@ -38,64 +67,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    
-  }
+}
 
-  .pool-txt-margin
-  {
-    
-  }
-
-  .pool-bg-color
-  {
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    /* width: 945px;
-    height: 232px;
-    background-color: #000324;
-    opacity: 0.8; */
-    /* color: white;
-    font-family: ‘Dosis’, sans-serif; */
-
-
-    /* top: 253px;
-    left: 488px;
-    width: 945px;
-    height: 232px; */
-    /* UI Properties */
+.pool-bg-color {
     background: #000324 0% 0% no-repeat padding-box;
     opacity: 0.8;
-  }
-
-.navbar-background {
-/* Layout Properties */
-top: 0px;
-left: 0px;
-width: 1920px;
-height: 120px;
-/* UI Properties */
-background: #000324 0% 0% no-repeat padding-box;
-opacity: 1;
 }
 
-
-.nav-link {
-    color: #FFFFFF  !important;
-    font-size: 16px;
-    }
-
-.navbar-text-align
-{
-display: flex;
-justify-content: center;
-align-content: flex-end;
-
-}
-
-.pool-image
-{
-    width: 1920px;
+.pool-image {
+    min-width: 1920px;
     height: 500px;
     margin-left: 0;
     margin-right: 0;
@@ -103,32 +83,13 @@ align-content: flex-end;
     padding-right: 0;
 }
 
-.hover-pool
-{
+.hover-pool {
     position: absolute;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
-
-/* .pool-container{
-    margin-left: 0;
-    padding: 0;
-} */
-/* Picture of pool*/
-/* .pool-image {
-    top: 119%;
-    left: 0px;
-    width: 1920px;
-    height: 500px;
-} */
-
-/* .pool-overlay {
-    vertical-align: bottom;
-    height: 500px;
-    width: 500px;
-} */
 
 .image-quote {
     display: flex;
@@ -141,8 +102,7 @@ align-content: flex-end;
     position: relative;
 }
 
-.hover-pool
-{
+.hover-pool {
     position: absolute;
     top: 0;
     left: 10%;
@@ -162,49 +122,54 @@ align-content: flex-end;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(54, 25, 25, .00004); */
-    /* transition: background-color 0.5s; */
 }
 
 .pool-text {
-    /* display: flex;
-    justify-content: center; */
+
     color: white;
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
 }
 
-.pool-text-center
-{
+.pool-text-center {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .pool-text-1 {
-    font-size: 2vw;
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
 }
 
 .pool-text-2 {
-    font-size: 1vw;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* .pool-text-bg-color {
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    background-color: blue;
-    background: rgb(204, 204, 204);
-    /* width: 700px; */
-    /* background-size: 100px 100px;
-} */
 
-/* .hover:hover {
-    background-color: rgba(0, 188, 212, 0.8);
-    /* You can tweak with other background properties too (ie: background-image)...
-} */
+/* welcome to */
+
+.hamster-border
+{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 753px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.hamster-flex-middle{display: flex; justify-content: center; align-content: center;}
+.hamster-flex{display: flex; flex-direction: row;}
+.hamster-text {font-size: 16px; font-family: 'Source Sans Pro', sans-serif;}
+.hamster-title {font-size: 35px; font-family: 'Dosis', sans-serif;}
+.wel-pic-mouse-chillen {margin-top: 5rem; margin-bottom: 5rem;}
+.wel-pic-finest {width: 200px; height: 153px;}
+.wel-pic-cert {width: 200px; height: 193px;}
+.wel-pic-gen {width: 200px; height: 175px;}
+.flex-icons {justify-content: space-between;}
 
 /* testimonial grid */
+
 .testimonial-grid {
     display: grid;
     gap: 0;
@@ -215,14 +180,6 @@ align-content: flex-end;
     border: 1px solid #333;
     background-color: whitesmoke;
 }
-
-
-/* Cards CSS */
-
-/* .cards-layout {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    display: flex;
-} */
 
 
 .card-title {
@@ -245,8 +202,7 @@ align-content: flex-end;
     margin: 0.5rem;
 }
 
-.card-text 
-{
+.card-text {
     font-size: 16px;
     margin: 0.5rem;
 }
@@ -262,7 +218,6 @@ align-content: flex-end;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    
 }
 
 .card-1 {
@@ -289,73 +244,65 @@ align-content: flex-end;
     background-color: #FFFFFF;
 }
 
-.card-button
-{
+.card-button {
     margin: 0.5rem;
 }
 
-.card-bg
-{
+.card-bg {
     top: 1235px;
-left: 0px;
-width: 1920px;
-height: 738px;
-/* UI Properties */
-opacity: 1;
+    left: 0px;
+    width: 1920px;
+    height: 738px;
+    /* UI Properties */
+    opacity: 1;
 }
 
 
 
 /* box layout */
 
-.col-layout
-{
+.col-layout {
     width: 561px;
     height: 234px;
 }
 
-.container-packages
-{
+.container-packages {
     display: flex;
     justify-content: center;
     vertical-align: middle;
     align-content: center;
 }
 
-.package-margin
-{
+.package-margin {
     margin-top: 100px;
     display: flex;
     margin-bottom: 100px;
 }
 
-.package-text-title
-{
+.package-header {font-size: 35px; font-family: 'Dosis', sans-serif;}
+
+.package-text-title {
     font-size: 25px;
     font-family: Dosis;
 }
 
-.package-text-price
-{
+.package-text-price {
     font-size: 16px;
     color: #1F51A8;
     font-family: Source Sans Pro;
 }
 
-.package-text-body
-{
+.package-text-body {
     font-size: 16px;
     font-family: Source Sans Pro;
 }
 
-.col-text-margin
-{
+.col-text-margin {
     margin-left: 1rem;
- 
+
 }
 
-.col-text-body
-{
+.col-text-body {
     margin-top: 1rem;
 }
 
@@ -363,167 +310,172 @@ opacity: 1;
 
 /* AMENITIES */
 
-.amen-bg
-{
-top: 2942px;
-left: 0px;
-width: 1920px;
-height: 548px;
-/* UI Properties */
-opacity: 1;
+.amen-bg {
+    top: 2942px;
+    left: 0px;
+    width: 1920px;
+    height: 548px;
+    /* UI Properties */
+    opacity: 1;
 }
 
-.amen-icons
-{
+.amen-icons {
     display: flex;
     justify-content: center;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-content: center;
 }
 
-.amen-title
-{
-text-align: center;
-font: normal normal normal 35px/44px Dosis;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+.amen-title {
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-.amen-info
-{
+.amen-info {
 
-text-align: center;
-font: normal normal normal 16px/20px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 
-.amen-description
-{
+.amen-description {
     /* Layout Properties */
     top: 3296px;
     left: 706px;
     width: 228px;
     height: 25px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 20px/25px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-display: flex;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
 
-justify-content: center;
-justify-content: space-between;
+    justify-content: center;
+    justify-content: space-between;
 }
 
-.amen-24hour-text
-{
+.amen-24hour-text {
     /* Layout Properties */
-top: 3296px;
-left: 706px;
-width: 228px;
-height: 25px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 20px/25px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.amen-combreak-text
-{
-    /* Layout Properties */
-top: 3296px;
-left: 706px;
-width: 228px;
-height: 25px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 20px/25px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.amen-valet-text
-{
-    /* Layout Properties */
-top: 3296px;
-left: 1047px;
-width: 118px;
-height: 25px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 20px/25px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.amen-pool-text
-{
-    /* Layout Properties */
-top: 3296px;
-left: 1325px;
-width: 134px;
-height: 25px;
-/* UI Properties */
-text-align: center;
-font: normal normal bold 20px/25px Source Sans Pro;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-/* .container-pool-test
-{
-    position: relative;
+    top: 3296px;
+    left: 706px;
+    width: 228px;
+    height: 25px;
+    /* UI Properties */
     text-align: center;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.amen-combreak-text {
+    /* Layout Properties */
+    top: 3296px;
+    left: 706px;
+    width: 228px;
+    height: 25px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.amen-valet-text {
+    /* Layout Properties */
+    top: 3296px;
+    left: 1047px;
+    width: 118px;
+    height: 25px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.amen-pool-text {
+    /* Layout Properties */
+    top: 3296px;
+    left: 1325px;
+    width: 134px;
+    height: 25px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 20px/25px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.reserve-window {
+    width: 1137px;
+    height: 207px;
+}
+
+.reserve-flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+.reserve-room-bg
+{
+    background: #000324;
+    opacity: 1;
+    width: 1137px;
+    height: 207px;
     color: white;
 }
 
-.centered-text-pool {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
------------
-
-/* reserve room */
-
-.reserve-window
+.mouse-image-size
 {
-align-items: center;
-top: 3591px;
-left: 392px;
-width: 1137px;
-height: 207px;
-/* UI Properties */
-background: #000324 0% 0% no-repeat padding-box;
-opacity: 1;
+    width: 1137px;
+    max-width: 1137px;
+    height: 414px;
+}
+
+.res-contain
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button-margin
+{
+    margin-top: 19px;
+}
+
+.reserve-title
+{
+    margin-top: 1rem;
 }
 
 
-
 /* Layout Properties */
-footer
-{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-top: 4312px;
-left: 0px;
-width: 1920px;
-height: 300px;
-/* UI Properties */
-background: #000324 0% 0% no-repeat padding-box;
-opacity: 1;
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* top: 4312px;
+    left: 0px; */
+    min-width: 1920px;
+    height: 300px;
+    /* UI Properties */
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+    gap: 1rem;
 }
 
 
