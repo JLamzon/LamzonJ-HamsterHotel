@@ -1,41 +1,63 @@
-/* body { padding: 0; margin: 0; } */
+body { 
+    padding: 0; 
+    margin: 0; 
+    width: 1920px;
+}
 
 /* .container
 {
     min-width: 1920px;
 } */
-.flex-centered
+/* .flex-centered
 {
     display: flex;
     justify-content: center;
-}
+    align-content: center;
+} */
 
 .container-text {
-    
-    justify-content: center;
     position: relative;
-    text-align: center;
-    color: white;
+    display: flex;
+    /* display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; */
+    /* color: white; */
   }
 
 .pool-txt-hover {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 945px;
+    height: 232px;
+    margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .pool-txt-margin
+  {
+    
   }
 
   .pool-bg-color
   {
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 945px;
+    transform: translate(-50%, -50%); */
+    /* width: 945px;
     height: 232px;
     background-color: #000324;
-    opacity: 0.8;
-    color: white;
-    font-family: ‘Dosis’, sans-serif;
+    opacity: 0.8; */
+    /* color: white;
+    font-family: ‘Dosis’, sans-serif; */
+
 
     /* top: 253px;
     left: 488px;
@@ -86,6 +108,8 @@ align-content: flex-end;
     position: absolute;
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 /* .pool-container{
