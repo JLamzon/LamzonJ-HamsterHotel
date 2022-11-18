@@ -4,7 +4,40 @@ body {padding: 0; margin: 0; max-width: 1920px;}
 fonts.
 font-family: 'Dosis', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Sans Pro Bold', sans-serif;
 */
+
+.
+
+.bg-test
+{
+    background-color: yellow;
+}
+
+.cards-background
+{
+    background-image: url("/assets/bg2.jpg"); max-width: 1920; height:auto;
+    background-color: #cccccc;
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+display: flex;
+justify-content: center;
+align-content: center;
+gap: 1rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.parent div {
+    padding: 50px;
+    background-color: rgba(0,0,0,0.5);
+    grid-row-start: 1;
+    grid-column-start: 1;
+   }
 
 
 /* Navbar */
@@ -221,26 +254,26 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .card-1 {
-    top: 1339px;
-    left: 383px;
+    /* top: 1339px;
+    left: 383px; */
     width: 369px;
-    height: 522px;
+    min-height: 522px;
     background-color: #FFFFFF;
 }
 
 .card-2 {
-    top: 1339px;
-    left: 766px;
+    /* top: 1339px;
+    left: 766px; */
     width: 369px;
-    height: 522px;
+    min-height: 522px;
     background-color: #FFFFFF;
 }
 
 .card-3 {
-    top: 1339px;
-    left: 1149px;
+    /* top: 1339px;
+    left: 1149px; */
     width: 369px;
-    height: 522px;
+    min-height: 522px;
     background-color: #FFFFFF;
 }
 

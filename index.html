@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    
+
 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg nav-text navbar-background">
       <div class="container-fluid">
@@ -57,11 +57,11 @@
 
 <!-- Pool image -->
     <div class="container-text">
-      <img class="pool-image" src="./assets/header.jpg" alt="" />
+      <img class="pool-image" src="./assets/header.jpg" alt="picture of the pool" />
       <div class="pool-txt-hover pool-bg-color">
         <center>
           <p class="pool-text-1">Run on the wheel of luxury</p>
-          <p>
+          <p class="pool-text-2">
             Explore everything the beach has to offer in our relaxing resort
           </p>
         </center>
@@ -76,11 +76,11 @@
         <img
           class="wel-pic-mouse-chillen"
           src="./assets/hamsterhomejpg.jpg"
-          alt=""
+          alt="mouse sitting on chair"
         />
       </div>
       <div class="hamster-border" id="hamster-paradise">
-        <br>
+
         <br>
         <h3 class="hamster-title">Welcome to hamster's paradise</h3>
         <p class="hamster-text">
@@ -99,13 +99,13 @@
         </p>
         <br>
         <div class="row hamster-border-icons flex-icons ">
-          <img class="wel-pic-finest" src="./assets/awardfinest.png" alt="" />
+          <img class="wel-pic-finest" src="./assets/awardfinest.png" alt="award logo" />
           <img
             class="wel-pic-cert"
             src="./assets/awardsatisfaction.png"
-            alt=""
+            alt="satisfaction logo"
           />
-          <img class="wel-pic-gen" src="./assets/awardgenuine.png" alt="" />
+          <img class="wel-pic-gen" src="./assets/awardgenuine.png" alt="genuine logo" />
         </div>
       </div>
    </container>
@@ -113,9 +113,58 @@
 
 
 <!-- Rooms -->
+  <section class='container-fluid d-flex flex-wrap p-2 justify-content-center cards-background' style="min-height: 700px;">
+    <article class='card card-1 col-12 col-md-6 col-lg-3'"  style="min-height: 550px">
+      <img src="/assets/room1.jpg" class="card-img-top" alt="..." />
+      <h5 class="card-title">Queen Room</h5>
+                    <p class="room-size-text">850 SQ FT room with city view</p>
+                    <p class="card-text">
+                      • One queen size bed <br />• Seed Bar, fireplace and large
+                      balcony <br />• Small kitchen with a refrigerator and stove
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                      <a href="#" class="btn btn-primary card-button">Reserve</a>
+                    </div>                  
+    </article>
+    <article class='card card-2 col-12 col-md-6 col-lg-3'>
+      <img src="./assets/room2.jpg" class="card-img-top" alt="..." />
+      <h5 class="card-title">King Room</h5>
+      <p class="room-size-text">950 SQ FT room with beach view</p>
+      <p class="card-text">
+        • One king size bed <br />• Seed Bar, fireplace and large
+        balcony <br />• Small kitchen with a refrigerator and stove
+      </p>
+      <br>
+      <br>
+      <br>
+      <div>
+        <a href="#" class="btn btn-primary card-button">Reserve</a>
+      </div>
+      
+    </article>
+    <article class='card card-3 col-12 col-md-6 col-lg-3'>
+      <img src="/assets/room3.jpg" class="card-img-top" alt="..." />
+      <h5 class="card-title">Beach Side Suite</h5>
+                  <p class="room-size-text">1500 SQ FT Suite with beach view</p>
+                  <p class="card-text">
+                    • One California king size bed <br />• Second room with
+                    fireplace, hot tub, and balcony <br />• Seed Bar and coffee
+                    station <br />• Full kitchen with a refrigerator, stove, and
+                    island
+                  </p>
+                  <div>
+                    <a href="#" class="btn btn-primary card-button">Reserve</a>
+                  </div>
+                  
+    </article>
+  </section>
+<!-- 
    <container>
     <div class="wrapper" id="rooms">
-      <img class="card-bg" src="./assets/bg2.jpg" alt="background" />
+      <img class="card-bg" src="./assets/bg2.jpg" alt="cards background" />
       <div class="hover">
         <div class="row">
           <div class="col-12">
@@ -123,7 +172,7 @@
         </div>
         <div class="container-fluid">
           <div class="row card-align">
-            <div class="col-3">
+            <div class="col-3 row-cols-md-2">
               <div class="card-1" style="min-width: 300px; min-height: 550px">
                 <img src="/assets/room1.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -137,7 +186,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 row-cols-md-2">
               <div class="card-2" style="min-width: 300px; height: 550px">
                 <img src="./assets/room2.jpg" class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -171,10 +220,10 @@
         </div>
       </div>
     </div>
-   </container>
+   </container> -->
 
 
-<!-- rooms -->
+<!-- Packages -->
     <div class="container-fluid package-margin" id="packages">
       <div class="row container-packages">
         <div class="col-12">
@@ -333,7 +382,8 @@
                   data-toggle="button"
                   aria-pressed="false"
                   autocomplete="off"
-                >
+                  size="15"
+;                >
                   Check Availability
                 </button>
               </div>
@@ -356,10 +406,12 @@
 
 <!-- Footer -->
     <footer id="contact">
+      <div></div>
       <img src="./assets/Logo.png" alt="Logo" width="143" height="100" />
       <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
       <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
     </footer>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
