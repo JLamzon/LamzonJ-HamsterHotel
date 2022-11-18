@@ -98,7 +98,7 @@
           you for choosing La Petite Maison.
         </p>
         <br>
-        <div class="row hamster-border-icons flex-icons ">
+        <div class="row hamster-border-icons flex-icons hidden-mobile">
           <img class="wel-pic-finest" src="./assets/awardfinest.png" alt="award logo" />
           <img
             class="wel-pic-cert"
@@ -230,9 +230,9 @@
           <p class="container-packages package-header">Packages</p>
         </div>
         <div class="col-12 col-layout">
-          <img class="col-layout" src="./assets/hamsterwedding.jpg" alt="" />
+          <img class="col-layout hidden-mobile" src="./assets/hamsterwedding.jpg" alt="" />
         </div>
-        <div class="ol-12 col-layout col-text-margin">
+        <div class="ol-12 col-layout col-text-margin  flex-item-1">
           <br>
           <p class="package-text-title">Beach Wedding package</p>
           <p class="package-text-price">Starting US $1,500.00</p>
@@ -258,12 +258,12 @@
             </p>
           </div>
           <div class="col-layout col-text-margin">
-            <img class="col-layout" src="./assets/hamsterspring.jpg" alt="" />
+            <img class="col-layout hidden-mobile" src="./assets/hamsterspring.jpg" alt="" />
           </div>
         </div>
         <div class="row container-packages">
           <div class="col-12 col-layout">
-            <img class="col-layout" src="./assets/hamstercheese.jpg" alt="" />
+            <img class="col-layout hidden-mobile" src="./assets/hamstercheese.jpg" alt="" />
           </div>
           <br>
           <div class="col-layout col-text-margin">
@@ -286,7 +286,7 @@
 <!-- Amenities -->
     <div class="wrapper" id="amenities">
       <img class="amen-bg" src="./assets/bg.jpg" alt="" />
-      <div class="container">
+      <div class="container-fluid">
         <div class="row amen-icons hover">
           <div class="col-12 amen-info">
             <p class="amen-title">Amenities</p>
@@ -296,21 +296,29 @@
             </p>
             <br /><br />
           </div>
-          <div class="col-2">
-            <img class="" src="./assets/24hour.png" alt="" />
-            <p class="amen-24hour-text"><br />24 Hour Room Service</p>
+          <div class="col-2 col-sm-6 col-md-2">
+            <div>
+              <center><img class="" src="./assets/24hour.png" alt="" /></center>
+            </div>
+            <div>
+              <p class="amen-24hour-text"><br />24 Hour Room Service</p>
+            </div>
+            
+            
           </div>
-          <div class="col-2">
-            <img src="./assets/breakfast.png" alt="" />
+          <div class="col-2 col-sm-6 col-md-2">
+            <center><img src="./assets/breakfast.png" alt="" /></center>
             <p class="amen-combreak-text"><br />Complimentary Breakfast</p>
           </div>
-          <div class="col-2">
-            <img src="./assets/valet.png" alt="" />
-            <p class="amen-valet-text"><br />Valet Parking</p>
+          <div class="col-2 col-sm-6 col-md-2">
+            <center><img src="./assets/valet.png" alt="" /></center>
+            <center><p class="amen-valet-text"><br />Valet Parking</p></center>
           </div>
-          <div class="col-2">
-            <img src="./assets/pool.png" alt="" />
-            <p class="amen-pool-text"><br />Beachside Pool</p>
+          <div class="col-2 col-sm-6 col-md-2 ">
+            <div class="">
+              <img src="./assets/pool.png" alt="" />
+              <p class="amen-pool-text align-left"><br />Beachside Pool</p>
+            </div>
           </div>
         </div>
       </div>
@@ -319,7 +327,7 @@
 
 
 <!-- reserve room -->
-    <div class="container reserve-container" id="reserve">
+    <div class="container-fluid reserve-container" id="reserve">
       <center>
         <div class="row reserve-room-bg">
           <div class="">
@@ -406,7 +414,6 @@
 
 <!-- Footer -->
     <footer id="contact">
-      <div></div>
       <img src="./assets/Logo.png" alt="Logo" width="143" height="100" />
       <p>123 Sunflower Seed Rd., Cavia, California 95205</p>
       <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>

@@ -6,13 +6,52 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Source Sans Pro Bold', sans-serif;
 */
-
-.
-
-.bg-test
+.margin-left
 {
-    background-color: yellow;
+    margin-left: 0;
 }
+.float-left
+{
+    float: left;
+}
+
+.align-item
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    /*---Demo---*/
+    margin-top: 40px;
+    border: 1px solid #262626;
+    /*---Demo---*/
+  }
+  
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+  }
+
+  @media (max-width:500px) {
+    .flex-item-1 {
+      order: 1;
+      margin-left: initial;
+    }
+  }
+
+  @media (max-width:500px) {
+    .flex-item-2 {
+      order: 2;
+      margin-left: initial;
+    }
+  }
+
 
 .cards-background
 {
@@ -122,6 +161,7 @@ gap: 1rem;
     justify-content: center;
     align-content: center;
     align-items: center;
+    min-width: 1920px;
 }
 
 .image-quote {
@@ -424,6 +464,7 @@ gap: 1rem;
 
 .amen-valet-text {
     /* Layout Properties */
+    align-content: center;
     top: 3296px;
     left: 1047px;
     width: 118px;
